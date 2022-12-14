@@ -1,0 +1,17 @@
+{
+    "App": {
+        "Width": 800,
+        "Height": 600,
+        "Resizable": true,
+        "HideMenuBar": true
+    },
+
+    "Links": {
+        "HTML": "./Website/index.html",
+        "Logo": "./Files/Logo.png"
+    },
+
+    "Server": {
+        "WebServer": true
+    }
+}

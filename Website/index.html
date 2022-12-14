@@ -1,0 +1,58 @@
+<!-- MESSAGE -->
+<!--
+Do you know how to test the app?
+Use the command: "npm run launch" in the terminal.
+-->
+<!------------->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/grid.css">
+    <title>Multi-Virtual's Random Stuff (because why not)</title>
+</head>
+<body>
+    <nav id="nav">
+        <div id="showTitle">
+        </div>
+        <div id="togglers">
+          <div id="minimize"><span>-</span>
+          </div>
+          <div id="maximize"><span></span>
+          </div>
+          <div id="close"><span>&times;</span>
+          </div>
+        </div>
+    </nav>
+    
+    <div class="row">
+
+        <div class="column">
+            <!--
+                In the linkCard1 you can only connect to html pages for now.
+            -->
+          <div style="cursor: pointer; height: 255px;" onclick="openLink('./cards/card1.html')" class="card">
+            <h3>A video game?</h3>
+            <img src="Files/Placeholder Img.png" width="126" height="70">
+            <p>Yup! We are going to get out a new video game!</p>
+          </div>
+          
+          <a style='text-decoration: none; height: 255px;' href="http://localhost:8080">
+            <div class="card">
+                <h3>A website app?</h3>
+                <img src="Files/Placeholder Img.png" width="126" height="70">
+                <p'>Yup! This is an server, an app and a website!</p>
+                </div>
+            </div>
+        </a>
+    
+    </div>
+
+</body>
+<script src="./JS/functions.js"></script>
+</html>
